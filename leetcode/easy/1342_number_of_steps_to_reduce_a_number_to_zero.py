@@ -1,3 +1,6 @@
+'''
+https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
+'''
 class Solution1(object):
     def numberOfSteps(self, num):
         step = 0
