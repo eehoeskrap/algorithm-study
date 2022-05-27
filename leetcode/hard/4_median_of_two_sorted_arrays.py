@@ -1,3 +1,8 @@
+'''
+문제 : https://leetcode.com/problems/trapping-rain-water
+풀이 : https://github.com/wool0826/aim-to-faang/issues/2#issuecomment-1121186521
+'''
+
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
       
