@@ -7,3 +7,5 @@
 - Medium : 혼자 풀기
 - Hard : [aim-to-faang](https://github.com/wool0826/aim-to-faang) 스터디 통해 문제 풀고 토론
 
+## Baekjoon
+- 단계별 풀기 : https://www.acmicpc.net/step
