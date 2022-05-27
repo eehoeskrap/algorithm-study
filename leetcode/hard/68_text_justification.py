@@ -1,3 +1,6 @@
+'''
+문제 : https://leetcode.com/problems/text-justification/
+'''
 class Solution(object):
     def fullJustify(self, words, maxWidth):
 
