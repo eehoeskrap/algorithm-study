@@ -9,6 +9,7 @@ class ListNode(object):
 class Solution2(object):
     def mergeKLists(self, lists):
 
+        print("?????")
         if not lists: return None
         if len(lists) == 1: return lists[0]
 

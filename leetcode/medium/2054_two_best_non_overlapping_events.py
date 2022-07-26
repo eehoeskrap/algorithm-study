@@ -19,10 +19,10 @@ class Solution(object):
         # events 값을 binary search 수행하며
         # overlap 되지 않는 end_time 값들 중 maxleft과의 최대값을 구해줌 
         for i in range(len(events)): 
-            left, right = 0, len(events)-1
+            left, right = 0, len(events) - 1
             while left < right: 
-                mid = left + (right-left) // 2+1 
-                if events[mid][1]<events[i][0]: 
+                mid = left + (right-left) // 2 + 1 
+                if events[mid][1] < events[i][0]: 
                     left = mid
                 else: 
                     right = mid-1 
