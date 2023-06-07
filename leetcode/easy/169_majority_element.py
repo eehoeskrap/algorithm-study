@@ -8,7 +8,8 @@ https://leetcode.com/problems/majority-element/description/?envType=study-plan-v
 하지만 이런 방식을 사용하게 될 경우, 
 배열에서 가장 마지막에 있는 숫자가 majorityElement 라면 느리게 찾을 수 있음. 
 
-따라서 
+굳이 중복을 제거하지 않더라도, 배열 내에서 주된 숫자의 개수는 반절을 넘는다고 하니까 
+그냥 sorted 하여 반에 해당하는 값을 리턴해도 될 거 같다. 
 '''
 class Solution(object):
     def majorityElement(self, nums):
@@ -17,8 +18,11 @@ class Solution(object):
         :rtype: int
         """
 
-        set_nums = set(nums)
-
-        for set_num in set_nums:
-            if nums.count(set_num) > (len(nums)/2):
-                return set_num
+        # solution 1 
+        # set_nums = set(nums)
+        # for set_num in set_nums:
+        #     if nums.count(set_num) > (len(nums)/2):
+        #         return 
+            
+        # solution 2 
+        return sorted(nums)[len(nums)/2]
